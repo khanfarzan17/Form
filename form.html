@@ -118,7 +118,16 @@
             
             <div class="form-group">
                 <label for="training-names">9. NAME OF PERSONS, WHO WILL JOIN TRAINING OF GREYTIP?</label>
-                <input type="text" id="training-names" name="training-names">
+
+                <tr>
+                  <td><label for="person-name-1">a)<input type="text" id="person-name-1" name="person-name-1"> </label></td>
+                  
+              </tr>
+                <tr>
+                  <td><label for="person-name-2">b)  <input type="text" id="person-name-2" name="person-name-2"> </label> </td>
+                  
+              </tr>
+
             </div>
             
             <div class="form-group">
@@ -172,6 +181,7 @@
             // .catch(error => {
             //     console.error('Error:', error);
             // });
+            this.reset()
         });
     </script>
 </body>
